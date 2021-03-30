@@ -1,0 +1,7 @@
+cc_library(
+    name = "shared_library",
+    srcs = ["shared_library.so"],
+    hdrs = ["shared_library.h"],
+    visibility = ["//visibility:public"],
+    includes = ["."]
+)
